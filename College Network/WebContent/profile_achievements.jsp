@@ -5,9 +5,7 @@
   <%@page import="java.util.*"%>
 <%@page import="com.user.*" %>
  <%@page import="javax.*"%>
- <%@page import="com.dao.*" %>
- 
- 
+ <%@page import="com.dao.*" %> 
 <%
 if(session.getAttribute("UserID")==null){
 	response.sendRedirect("login.jsp");
